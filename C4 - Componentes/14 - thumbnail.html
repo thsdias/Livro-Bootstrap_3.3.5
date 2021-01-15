@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 4</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <style>
+        .navbar-brand > img {
+            display: inline-block;
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="well text-center">Capítulo 4 - <small>4.13 Thumbnail</small></h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Thumbnail padrao -->
+        <h4>Thumbnail padrão <code>thumbnail</code></h4>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 text-center">
+                <a href="img/gt350.jpg" class="thumbnail"><img src="img/gt350.jpg" alt="Shelby GT3500"></a>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <a href="img/rs5.jpg" class="thumbnail"><img src="img/rs5.jpg" alt="Audi RS5 Sportback"></a>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <a href="img/rs7.jpg" class="thumbnail"><img src="img/rs7.jpg" alt="Audi RS7 Sportback"></a>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <a href="img/x6m.JPG" class="thumbnail"><img src="img/x6m.JPG" alt="BMW X6M"></a>
+            </div>
+        </div>
+        <hr>
+        <!-- Thumbnail com conteudo -->
+        <h4>Thumbnail com conteúdo <code>thumbnail caption</code></h4>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 text-center">
+                <div class="thumbnail">
+                    <img src="img/gt350.jpg" alt="Shelby GT3500">
+                    <div class="caption">
+                        <h3>Shelby GT3500</h3>
+                        <p>Lorem ipsum per torquent nec ligula massa cubilia tellus ad rhoncus, non tempus tincidunt</p>
+                        <p><a class="btn btn-primary" href="#" role="button">Saiba mais...</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <div class="thumbnail">
+                    <img src="img/rs5.jpg" alt="Audi RS5 Sportback">
+                    <div class="caption">
+                        <h3>RS5 Sportback</h3>
+                        <p>tempus tincidunt proin viverra sed fermentum donec. nullam tellus duis quisque conubia lectus</p>
+                        <p><a class="btn btn-primary" href="#" role="button">Saiba mais...</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <div class="thumbnail">
+                    <img src="img/rs7.jpg" alt="Audi RS7 Sportback">
+                    <div class="caption">
+                        <h3>RS7 Sportback</h3>
+                        <p>nec blandit, cubilia arcu bibendum habitasse nec sem hac elit potenti magna, rutrum dictum blandit integer</p>
+                        <p><a class="btn btn-primary" href="#" role="button">Saiba mais...</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <div class="thumbnail">
+                    <img src="img/x6m.JPG" alt="BMW X6M">
+                    <div class="caption">
+                        <h3>BMW X6 M</h3>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p><a class="btn btn-primary" href="#" role="button">Saiba mais...</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+    
+    <script src=" ../bootstrap/js/jquery-3.5.1.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
