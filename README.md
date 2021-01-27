@@ -13,3 +13,5 @@ Aprenda a usar o framework Bootstrap para criar layouts CSS complexos e responsi
 ■ **Capítulo 1 - Apresentação do Bootstrap**
 
 ■ **Capítulo 2 - Fundamentos**
+
+■ **Capítulo 4 - Componentes**
