@@ -6,6 +6,7 @@ Aprenda a usar o framework Bootstrap para criar layouts CSS complexos e responsi
 - Editora: Novatec
 - Link: https://livrosdomaujor.com.br/
 
+![Screenshot](capa.png)
 
 ## Sumário
 
@@ -17,3 +18,5 @@ Aprenda a usar o framework Bootstrap para criar layouts CSS complexos e responsi
 ■ **Capítulo 4 - Componentes**
 
 ■ **Capítulo 5 - Plugins**
+
+■ **Capítulo 6 - Criando um layout com Bootstrap**
