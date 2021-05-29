@@ -1,3 +1,7 @@
+
+Implementação dos exemplos do Livro Bootstrap 3 do Maujor.
+
+
 # Bootstrap 3.3.5
 Aprenda a usar o framework Bootstrap para criar layouts CSS complexos e responsivos
 
@@ -6,6 +10,7 @@ Aprenda a usar o framework Bootstrap para criar layouts CSS complexos e responsi
 - Editora: Novatec
 - Link: https://livrosdomaujor.com.br/
 
+![Screenshot](capa.png)
 
 ## Sumário
 
@@ -17,3 +22,7 @@ Aprenda a usar o framework Bootstrap para criar layouts CSS complexos e responsi
 ■ **Capítulo 3 - CSS**
 
 ■ **Capítulo 4 - Componentes**
+
+■ **Capítulo 5 - Plugins**
+
+■ **Capítulo 6 - Criando um layout com Bootstrap**
