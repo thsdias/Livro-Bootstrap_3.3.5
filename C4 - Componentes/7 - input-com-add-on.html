@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 4</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="well text-center">Capítulo 4 - <small>4.5 Controle input com add-on</small></h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h4>4.5.1 Texto add-on <code>input-group</code></h4>
+        </div>
+        <div class="row">
+            <!-- Texto integrado antes -->
+            <div class="col-md-3">
+                <h5>Texto add-on antes</h5>
+                <div class="input-group">
+                    <span class="input-group-addon" id="addon1">@</span>
+                    <input type="text" class="form-control" placeholder="twitter" aria-describedby="addon1">
+                </div>
+            </div>
+            <!-- Texto integrado depois -->
+            <div class="col-md-4">
+                <h5>Texto add-on depois</h5>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Seu email" aria-describedby="addon2">
+                    <span class="input-group-addon" id="addon2">@gmail.com</span>
+                </div>
+            </div>
+            <!-- Texto integrado antes e depois -->
+            <div class="col-md-4">
+                <h5>Texto add-on antes e depois</h5>
+                <div class="input-group">
+                    <span class="input-group-addon">R$</span>
+                    <input type="text" class="form-control" placeholder="Total da sua compra"
+                        aria-label="Valor em reais">
+                    <span class="input-group-addon">,00</span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="row">
+            <h4>4.5.2 Botão simples add-on <code>input-group-btn</code></h4>
+        </div>
+        <div class="row">
+            <!-- Botao simples antes -->
+            <div class="col-md-3">
+                <h5>Botao simples add-on antes</h5>
+                <div class="input-group">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">IR</button>
+                    </span>
+                    <input type="text" class="form-control" placeholder="CPF">
+                </div>
+            </div>
+            <!-- Botao simples depois -->
+            <div class="col-md-4">
+                <h5>Botao simples add-on depois</h5>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Palavra-chave">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">BUSCAR</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="row">
+            <h4>4.5.3 Botão dropdown add-on <code>input-group-btn</code></h4>
+        </div>
+        <div class="row">
+            <!-- Botao dropdown antes -->
+            <div class="col-md-4">
+                <h5>Botao dropdown add-on antes</h5>
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="button">CONTATOS</button>
+                        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">um</a></li>
+                            <li><a href="#">dois</a></li>
+                            <li><a href="#">três</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">quatro</a></li>
+                        </ul>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Contatos">
+                </div>
+            </div>
+            <!-- Botao dropdown depois -->
+            <div class="col-md-4">
+                <h5>Botao dropdown add-on depois</h5>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Favoritos">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-default">FAVORITOS</button>
+                        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                            <span class="glyphicon glyphicon-star"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">um</a></li>
+                            <li><a href="#">dois</a></li>
+                            <li><a href="#">três</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">quatro</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../bootstrap/js/jquery-3.5.1.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
